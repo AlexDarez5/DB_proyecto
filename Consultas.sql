@@ -1,0 +1,1 @@
+SELECT id_esp, nombre_esp, nombre, 'nombre+apellido' AS nombre_doctor FROM citas.doctor INNER JOIN especialidad ON citas.doctor.id_esp = citas.especialidad.id_especialidad;
